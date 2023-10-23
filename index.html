@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="vi">
+    <head>
+        <title>Classic Network - Trang chủ</title>
+        <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico">
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Tải game classic tuổi thơ thời 8x 9x">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="content-language" content="vi">
+		<meta name="author" content="Dương Nguyễn">
+    </head>
+
+    <body>
+        <style>
+
+            body {
+                margin: auto;
+                width: 700px;
+                height: 1020px;
+                left: 2%;
+                top: 3%;
+                right: 700px;
+                bottom: 2500px;
+                padding: 3px;
+                border: 2px solid #000000;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+            }
+
+            footer {
+                text-align: center;
+                background-color: #000000;
+                color: #41c1c8;
+                padding: 10px 0;
+                font-size: 12px;
+            }
+
+            .container {
+                width: 100%;
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+
+            @media (max-width: 600px) {
+                /* CSS áp dụng cho màn hình có chiều rộng <= 600px */
+                .container {
+                    padding: 10px;
+                }
+            }
+            
+            /* Border Trang chủ */
+            .border-1 {
+                color: white;
+                background: rgb(40, 100, 222); /* Màu sắc nền */
+                border: 4px solid rgb(40, 100, 190);
+                padding: 1px;
+            }
+
+            #myText {
+                display: none;
+            }
+
+            /* Border Tin tức */
+            .border-news-1 {
+                color: white;
+                background: red; /* Màu sắc nền */
+                border: 3px solid rgb(240, 0, 0);
+                padding: 1px;
+            }
+            .border-news-2 {
+                border: 3px solid black;
+                padding: 5px;
+            }
+ 
+        </style>
+
+        <br>
+        <!----- Tìm Kiếm ----->
+        <center>
+            <form method="GET" action="search.php">
+                <label for="q"></label>
+                <input type="text" name="q" id="q" required>
+                <button type="submit"><b>Tìm kiếm</b></button>
+            </form>
+        </center><br>
+            
+        <!----- Tin Tức ----->
+
+        <div class="border-news-1"><b>• Tin tức <u>Classic-network.pro</u></b></div>
+        <div class="border-news-2">
+            <u>[16/10/2023]</u><b>:</b> <b>Website sẽ bị hoãn đến tháng 2. Vì bản cập nhật vẫn chưa được hoàn thiện và có rất nhiều lỗi không mong muốn, nên Admin cần thêm thời gian để xem xét lại.</b>
+        </div>
+
+        <!-------- HOÃN -------->
+        <br>
+        <div class="border-1">
+            <b>• server đang bảo trì</b>
+        </div>
+
+        <!--------- COPYRIGHT ---------->    
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <footer>
+            <div class="copyright">
+              © 2023 - DuongNguyenVN 
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
